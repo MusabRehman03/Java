@@ -12,6 +12,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.printf(input.nextLine());
 
+
     }
 
 
