@@ -11,4 +11,14 @@ public class VarArgs {
         }
         return sum;
     }
+    public static int multipleArgs(int b, int c, int ...a){
+        int sum=0;
+        sum+=b;
+        sum+=c;
+        for (int num : a) {
+            sum += num;
+        }
+        return sum;
+    }
+
 }
